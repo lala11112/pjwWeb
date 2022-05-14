@@ -21,4 +21,4 @@
   }
 ?>
   <li><?=$logged?></li>
-  <li><a href="logout.php">로그아웃</a></li>
+  <li><a href="./api/logout.php">로그아웃</a></li>
