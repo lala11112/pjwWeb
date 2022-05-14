@@ -30,7 +30,7 @@ include_once("./header.php");
           <li><input type="text" name="id" placeholder="아이디"></li>
           <li><input type="password" id="pass" name="pass" placeholder="비밀번호"></li>
         </ul>
-        <a href="로그인" onclick="check_input()"></a>
+        <input type='button' value='로그인하기' onclick="check_input()"/>&nbsp;
     </div>
   </div>
 <?php
