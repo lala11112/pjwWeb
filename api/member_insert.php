@@ -3,7 +3,7 @@
     $pass = $_POST["pass"];
 
 
-    $con = mysqli_connect("localhost", "user1", "12345", "pjwweb");
+    $con = mysqli_connect("localhost", "pjw", "pjw20040715", "pjwweb");
 
 	$sql = "INSERT INTO men(id, pass) ";
 	$sql .= "VALUES('$id', '$pass')";

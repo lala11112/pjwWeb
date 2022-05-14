@@ -17,8 +17,8 @@
 <?php
   }
   else{
-    $logged = $username."(".$userid")님";
-  }
 ?>
-  <li><?=$logged?></li>
   <li><a href="./api/logout.php">로그아웃</a></li>
+  <?php
+    }
+  ?>
