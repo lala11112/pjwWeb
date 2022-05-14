@@ -6,7 +6,7 @@
 
     </head>
     <body>
-    <script>
+<script>
    function check_input()
    {
       if (!document.member_form.id.value) {
